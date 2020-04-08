@@ -1,0 +1,53 @@
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtt"
+        android:text="Export DATA To Excel Sheet"
+        android:textAlignment="center"
+        android:textSize="35dp"
+        android:textStyle="bold"
+        android:textColor="@color/NEW"
+        android:layout_marginBottom="200dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txt"
+        android:text="........."
+        android:textAlignment="center"
+        android:textSize="20dp"
+        android:textColor="@color/NEW"
+       />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button2"
+        android:text="Export"
+        android:textColor="@color/NEW"
+        android:textSize="15dp"
+        android:background="@drawable/bg_border_primary_selector"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/goback"
+        android:text="GO BACK"
+        android:textColor="#56B920"
+        android:textSize="15dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/bg_border_primary_selector"/>
+
+
+</LinearLayout>

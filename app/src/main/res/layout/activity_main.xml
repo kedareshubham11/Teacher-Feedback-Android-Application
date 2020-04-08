@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_headline"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/top_margin"
+                android:text="Choose subject for submit feedback"
+                android:textAlignment="center"
+                android:textColor="@color/NEW"
+                android:textSize="20dp" />
+
+            <Spinner
+                android:id="@+id/spinner_subjects"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/top_margin">
+
+            </Spinner>
+
+
+            <EditText
+                android:id="@+id/et_rollno"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter your roll number"
+                android:maxLength="10"
+                android:inputType="numberDecimal"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/top_margin"
+                android:text="A. Communication skills (i.e. teachers ability to communicate the subject clearly and audibly)" />
+
+            <RadioGroup
+                android:id="@+id/rg_a"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <RadioButton
+                    android:id="@+id/rb_a_e"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/excellent" />
+
+                <RadioButton
+                    android:id="@+id/rb_a_v"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/very_good" />
+
+                <RadioButton
+                    android:id="@+id/rb_a_g"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/good" />
+
+                <RadioButton
+                    android:id="@+id/rb_a_p"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/poor" />
+
+
+            </RadioGroup>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/top_margin"
+                android:text="B. Ability to explain subject matter and clearly doubts" />
+
+            <RadioGroup
+                android:id="@+id/rg_b"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <RadioButton
+                    android:id="@+id/rb_b_e"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/excellent" />
+
+                <RadioButton
+                    android:id="@+id/rb_b_v"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/very_good" />
+
+                <RadioButton
+                    android:id="@+id/rb_b_g"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/good" />
+
+                <RadioButton
+                    android:id="@+id/rb_b_p"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/poor" />
+
+            </RadioGroup>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/top_margin"
+                android:text="C.Presentation(the blackboard/powerpoint) is clear" />
+
+            <RadioGroup
+                android:id="@+id/rg_c"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <RadioButton
+                    android:id="@+id/rb_c_e"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/excellent" />
+
+                <RadioButton
+                    android:id="@+id/rb_c_v"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/very_good" />
+
+                <RadioButton
+                    android:id="@+id/rb_c_g"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/good" />
+
+                <RadioButton
+                    android:id="@+id/rb_c_p"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/poor" />
+
+            </RadioGroup>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/top_margin"
+                android:text="D.Teaching Methodology" />
+
+            <RadioGroup
+                android:id="@+id/rg_d"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <RadioButton
+                    android:id="@+id/rb_d_e"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/excellent" />
+
+                <RadioButton
+                    android:id="@+id/rb_d_v"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/very_good" />
+
+                <RadioButton
+                    android:id="@+id/rb_d_g"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/good" />
+
+                <RadioButton
+                    android:id="@+id/rb_d_p"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/poor" />
+
+            </RadioGroup>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/top_margin"
+                android:text="E.Overall interest created in the subject" />
+
+            <RadioGroup
+                android:id="@+id/rg_e"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <RadioButton
+                    android:id="@+id/rb_e_e"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/excellent" />
+
+                <RadioButton
+                    android:id="@+id/rb_e_v"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/very_good" />
+
+                <RadioButton
+                    android:id="@+id/rb_e_g"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/good" />
+
+                <RadioButton
+                    android:id="@+id/rb_e_p"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/poor" />
+
+            </RadioGroup>
+
+            <Button
+                android:id="@+id/btn_submit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/NEW"
+                android:background="@drawable/bg_border_primary_selector"
+                android:text="Submit"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

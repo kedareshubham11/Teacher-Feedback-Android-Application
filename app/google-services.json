@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "981068098733",
+    "firebase_url": "https://feedback1-180ba.firebaseio.com",
+    "project_id": "feedback1-180ba",
+    "storage_bucket": "feedback1-180ba.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:981068098733:android:1afc9787161b1500",
+        "android_client_info": {
+          "package_name": "com.prathameshmore.feedbackapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "981068098733-bl1gvpn21i1k7cgvsspfnjcj54l8ubl2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.prathameshmore.feedbackapp",
+            "certificate_hash": "40f6a242fc31613c254e9d3da92c36255eb09291"
+          }
+        },
+        {
+          "client_id": "981068098733-c6v1uj3c4erlej3q11fkofif61k6fel0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDBhng86nKvsJK6wCLhENamHe20g3eNUro"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "981068098733-c6v1uj3c4erlej3q11fkofif61k6fel0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

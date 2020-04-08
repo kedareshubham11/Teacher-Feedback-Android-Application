@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="MENU"
+        android:id="@+id/menu"
+        android:gravity="center"
+        android:textSize="30sp"
+        android:textColor="@color/NEW"
+        />
+    <Button
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+        android:id="@+id/viewfeedback"
+    android:text="Feedback"
+    android:gravity="center"
+    android:padding="15dp"
+    android:textSize="15sp"
+    android:textAllCaps="true"
+    android:textColor="@color/NEW"
+    android:background="@drawable/bg_border_primary_selector"
+    android:layout_margin="10dp"
+    android:layout_below="@+id/menu">
+    </Button>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/clearfeedback"
+        android:text="clear feedback"
+        android:gravity="center"
+        android:padding="15dp"
+        android:textSize="15sp"
+        android:textAllCaps="true"
+        android:textColor="@color/NEW"
+        android:background="@drawable/bg_border_primary_selector"
+        android:layout_margin="10dp"
+        android:layout_below="@+id/exportfeedback">
+    </Button>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/exportfeedback"
+        android:text="Export to excel"
+        android:gravity="center"
+        android:padding="15dp"
+        android:textSize="15sp"
+        android:textAllCaps="true"
+        android:textColor="@color/NEW"
+        android:background="@drawable/bg_border_primary_selector"
+        android:layout_margin="10dp"
+        android:layout_below="@+id/viewfeedback">
+
+
+    </Button>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/logout"
+        android:text="logout"
+        android:gravity="center"
+        android:padding="15dp"
+        android:textSize="15sp"
+        android:textAllCaps="true"
+        android:textColor="@color/NEW"
+        android:background="@drawable/bg_border_primary_selector"
+        android:layout_margin="10dp"
+        android:layout_below="@+id/clearfeedback">
+    </Button>
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/exit"
+        android:text="exit"
+        android:gravity="center"
+        android:padding="15dp"
+        android:textSize="15sp"
+        android:textAllCaps="true"
+        android:textColor="@color/NEW"
+        android:background="@drawable/bg_border_primary_selector"
+        android:layout_margin="10dp"
+        android:layout_below="@+id/logout">
+    </Button>
+
+</RelativeLayout>
